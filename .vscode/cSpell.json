@@ -11,6 +11,8 @@
       "language-keywords",
       "language-jargon",
       "c-standard-library",
+      "c-standard-library-errno",
+      "c-standard-library-math",
       "cpp-standard-library",
       "ecosystem",
 
@@ -37,6 +39,16 @@
       {
          "name": "c-standard-library",
          "path": "../dictionaries/c-standard-library.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "c-standard-library-errno",
+         "path": "../dictionaries/c-standard-library-errno.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "c-standard-library-math",
+         "path": "../dictionaries/c-standard-library-math.txt",
          "useCompounds": false
       },
       {

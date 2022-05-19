@@ -1,11 +1,42 @@
-# https://en.cppreference.com/w/cpp/header/cstdint
-intmax
-intptr
-uint
-uintmax
-uintptr
+# general
+errno
+
+
+# https://en.cppreference.com/w/cpp/header/cstddef
+cstddef
+offsetof
 ptrdiff
-wint
+
+
+# https://en.cppreference.com/w/cpp/header/cstdlib
+getenv
+malloc
+calloc
+realloc
+atof
+atoi
+atol
+atoll
+strtol
+strtoll
+strtoul
+strtoull
+strtof
+strtod
+strtold
+mblen
+mbtowc
+wctomb
+mbstowcs
+wcstombs
+srand
+qsort
+bsearch
+#labs
+llabs
+ldiv
+lldiv
+
 
 https://en.cppreference.com/w/cpp/header/climits
 climits
@@ -17,6 +48,7 @@ ushrt
 ulong
 ullong
 
+
 # https://en.cppreference.com/w/cpp/header/cfloat
 cfloat
 #flt
@@ -25,144 +57,38 @@ ldbl
 mant
 subnorm
 
-# https://en.cppreference.com/w/cpp/header/cerrno
-cerrno
-eacces
-eaddrinuse
-eaddrnotavail
-eafnosupport
-eagain
-ealready
-ebadf
-ebadmsg
-ebusy
-ecanceled
-echild
-econnaborted
-econnrefused
-econnreset
-edeadlk
-edestaddrreq
-#edom
-eexist
-efault
-efbig
-ehostunreach
-eidrm
-eilseq
-einprogress
-eintr
-einval
-#eio
-eisconn
-eisdir
-eloop
-emfile
-emlink
-emsgsize
-enametoolong
-enetdown
-enetreset
-enetunreach
-enfile
-enobufs
-enodata
-enodev
-enoent
-enoexec
-enolck
-enolink
-enomem
-enomsg
-enoprtoopt
-enospc
-enosr
-enostr
-enosys
-enotconn
-enotdir
-enotempty
-enotrecoverable
-enotsock
-enotsup
-enotty
-enxio
-enxio
-eopnotsupp
-eoverflow
-eownerdead
-eperm
-epipe
-eproto
-eprotonosupport
-eprototype
-erange
-erofs
-espipe
-esrch
-etime
-etimedout
-etxtbsy
-ewouldblock
-exdev
 
-# https://en.cppreference.com/w/cpp/header/cstdio
-stdio
-fpos
-stdin
-stdout
-stderr
-fopen
-bufsize
-iofbf
-iolbf
-ionbf
-tmpnam
-freopen
-fclose
-fflush
-setbuf
-setvbuf
-fread
-fwrite
-fgetc
-getc
-fgets
-fputc
-putc
-fputs
-getchar
-#gets
-putchar
-#puts
-ungetc
-scanf
-fscanf
-sscanf
-vscanf
-vfscanf
-vsscanf
-printf
-fprintf
-sprintf
-snprintf
-vprintf
-vfprintf
-vsprintf
-vsnprintf
-ftell
-fgetpos
-fseek
-fsetpos
-clearerr
-feof
-ferror
-perror
+# https://en.cppreference.com/w/cpp/header/cstdint
+intmax
+intptr
+uint
+uintmax
+uintptr
+ptrdiff
+wint
 
-# https://en.cppreference.com/w/cpp/header/clocale
-ctype
-setlocale
-localeconv
+
+# https://en.cppreference.com/w/cpp/header/csignal
+csignal
+sigabrt
+sigfpe
+sigill
+sigint
+sigsegv
+sigterm
+
+
+# https://en.cppreference.com/w/cpp/header/csetjmp
+csetjmp
+setjmp
+longjmp
+
+
+# https://en.cppreference.com/w/cpp/header/cstdarg
+
+
+# https://en.cppreference.com/w/cpp/header/cassert
+
 
 # https://en.cppreference.com/w/cpp/header/ctime
 ctime
@@ -175,10 +101,6 @@ gmtime
 localtime
 mktime
 
-# https://en.cppreference.com/w/cpp/header/cstddef
-cstddef
-offsetof
-ptrdiff
 
 # https://en.cppreference.com/w/cpp/header/cstring
 cstring
@@ -203,6 +125,47 @@ memcmp
 memset
 memcpy
 memmove
+
+
+# https://en.cppreference.com/w/cpp/header/cctype
+isalnum
+isalpha
+islower
+isupper
+isdigit
+isxdigit
+iscntrl
+isgraph
+isspace
+isblank
+isprint
+ispunct
+tolower
+toupper
+
+
+# https://en.cppreference.com/w/cpp/header/cwctype
+wctrans_t
+wctype_t
+iswalnum
+iswalpha
+iswlower
+iswupper
+iswdigit
+iswxdigit
+iswcntrl
+iswgraph
+iswspace
+iswblank
+iswprint
+iswpunct
+iswctype
+wctype
+towlower
+towupper
+towctrans
+wctrans
+
 
 # https://en.cppreference.com/w/cpp/header/cwchar
 WEOF
@@ -266,21 +229,99 @@ wcstof
 wcstod
 wcstold
 
+
 # https://en.cppreference.com/w/cpp/header/cuchar
 cuchar
 mbrtoc
 rtomb
 
-# https://en.cppreference.com/w/cpp/header/csignal
-csignal
-sigabrt
-sigfpe
-sigill
-sigint
-sigsegv
-sigterm
 
-# https://en.cppreference.com/w/cpp/header/csetjmp
-csetjmp
-setjmp
-longjmp
+
+
+# https://en.cppreference.com/w/cpp/header/cstdio
+stdio
+fpos
+stdin
+stdout
+stderr
+fopen
+bufsize
+iofbf
+iolbf
+ionbf
+tmpnam
+freopen
+fclose
+fflush
+setbuf
+setvbuf
+fread
+fwrite
+fgetc
+getc
+fgets
+fputc
+putc
+fputs
+getchar
+#gets
+putchar
+#puts
+ungetc
+scanf
+fscanf
+sscanf
+vscanf
+vfscanf
+vsscanf
+printf
+fprintf
+sprintf
+snprintf
+vprintf
+vfprintf
+vsprintf
+vsnprintf
+ftell
+fgetpos
+fseek
+fsetpos
+clearerr
+feof
+ferror
+perror
+
+
+# https://en.cppreference.com/w/cpp/header/clocale
+ctype
+setlocale
+localeconv
+
+
+
+
+# https://en.cppreference.com/w/cpp/header/cfenv
+fenv_t
+fexcept_t
+feclearexcept
+fetestexcept
+feraiseexcept
+fegetexceptflag
+fesetexceptflag
+fegetround
+fesetround
+fegetenv
+fesetenv
+feholdexcept
+feupdateenv
+FE_ALL_EXCEPT
+FE_DIVBYZERO
+FE_INEXACT
+FE_INVALID
+FE_OVERFLOW
+FE_UNDERFLOW
+FE_DOWNWARD
+FE_TONEAREST
+FE_TOWARDZERO
+FE_UPWARD
+FE_DFL_ENV
