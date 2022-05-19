@@ -10,7 +10,8 @@
 
       "language-keywords",
       "language-jargon",
-      "standard-library",
+      "c-standard-library",
+      "cpp-standard-library",
       "ecosystem",
 
       "!aws",
@@ -34,8 +35,13 @@
          "useCompounds": false
       },
       {
-         "name": "standard-library",
-         "path": "../dictionaries/standard-library.txt",
+         "name": "c-standard-library",
+         "path": "../dictionaries/c-standard-library.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "cpp-standard-library",
+         "path": "../dictionaries/cpp-standard-library.txt",
          "useCompounds": false
       },
       {

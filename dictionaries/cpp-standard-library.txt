@@ -1,0 +1,126 @@
+# general
+npos
+errc
+
+# iterator things
+cbegin
+cend
+rbegin
+rend
+
+# https://en.cppreference.com/w/cpp/header/limits
+denorm
+signaling # signle "l" not a typo
+tinyness # "y" not a typo
+
+# https://en.cppreference.com/w/cpp/header/type_traits
+nothrow
+
+# https://en.cppreference.com/w/cpp/header/optional
+nullopt
+
+# https://en.cppreference.com/w/cpp/utility/variant
+monostate
+
+# https://en.cppreference.com/w/cpp/string/basic_string
+wstring
+substr
+getline
+stoi
+stol
+stoll
+stoul
+stoull
+stof
+stod
+stold
+
+# https://en.cppreference.com/w/cpp/header/iostream
+streambuf
+istream
+wistream
+ostream
+wostream
+iostream
+wiostream
+#cin
+wcin
+cout
+wcout
+cerr
+wcerr
+#clog
+wclog
+
+# https://en.cppreference.com/w/cpp/header/ios
+fpos
+streamoff
+streamsize
+boolalpha
+noboolalpha
+showbase
+noshowbase
+showpoint
+noshowpoint
+showpos
+noshowpos
+skipws
+noskipws
+nouppercase
+unitbuf
+nounitbuf
+hexfloat
+defaultfloat
+
+# https://en.cppreference.com/w/cpp/io/basic_iostream
+unget
+putback
+getline
+readsome
+gcount
+tellg
+seekg
+rdstate
+setstate
+copyfmt
+rdbuf
+setf
+unsetf
+getloc
+xalloc
+iword
+pword
+openmode
+trunc
+fmtflags
+basefield
+adjustfield
+floatfield
+#boolalpha
+#showbase
+#showpoint
+#showpos
+#skipws
+#unitbuf
+iostate
+goodbit
+badbit
+failbit
+eofbit
+seekdir
+
+# https://en.cppreference.com/w/cpp/header/execution
+unsequenced
+#seq
+#par
+unseq
+
+# https://en.cppreference.com/w/cpp/header/bitset
+bitset
+
+# https://en.cppreference.com/w/cpp/header/chrono
+chrono
+
+# https://en.cppreference.com/w/cpp/header/format
+wformat
+vformat
