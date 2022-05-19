@@ -1,0 +1,47 @@
+{
+   "name": "cspell-cpp",
+   "description": "my own attempt at a c++ dictionary",
+   "language": "en-GB",
+   "enabledLanguageIds": ["cpp"],
+   "allowCompoundWords": false,
+   "dictionaries": [
+      "!cpp", // disable bundled cpp dictionary.
+      "!softwareTerms", // hmm... not sure about disabling this.
+
+      "language-keywords",
+      "language-jargon",
+      "standard-library",
+      "ecosystem",
+
+      "!aws",
+      "!companies",
+      "!cryptocurrencies",
+      "!filetypes",
+      "!fullstack",
+      "!node",
+      "!npm"
+      // "!public-licences"
+   ],
+   "dictionaryDefinitions": [
+      {
+         "name": "language-keywords",
+         "path": "../dictionaries/language-keywords.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "language-jargon",
+         "path": "../dictionaries/language-jargon.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "standard-library",
+         "path": "../dictionaries/standard-library.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "ecosystem",
+         "path": "../dictionaries/ecosystem.txt",
+         "useCompounds": false
+      },
+   ]
+}

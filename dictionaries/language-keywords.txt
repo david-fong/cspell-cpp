@@ -1,0 +1,43 @@
+# https://en.cppreference.com/w/cpp/keyword
+alignas
+alignof
+#asm
+bitand
+bitor
+bool
+compl
+const
+consteval
+constexpr
+constinit
+decltype
+enum
+extern
+goto
+namespace
+noexcept
+nullptr
+reflexpr
+sizeof
+struct
+typedef
+typeid
+typename
+wchar
+
+# preprocessor things
+elif
+endif
+ifdef
+ifndef
+undef
+pragma
+
+# https://en.cppreference.com/w/cpp/language/value_category
+glvalue
+prvalue
+xvalue
+lvalue
+rvalue
+
+uint

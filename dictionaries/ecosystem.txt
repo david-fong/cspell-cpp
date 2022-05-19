@@ -1,0 +1,13 @@
+#gnu
+#gcc
+#clang
+llvm # also included in the dictionary "softwareTerms"
+msvc
+emscripten
+
+#make
+#ninja
+cmake
+
+conan
+vcpkg

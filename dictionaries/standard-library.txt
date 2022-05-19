@@ -1,0 +1,47 @@
+# iterator things
+cbegin
+cend
+rbegin
+rend
+
+# https://en.cppreference.com/w/cpp/string/basic_string
+wstring
+substr
+getline
+stoi
+stol
+stoll
+stoul
+stoull
+stof
+stod
+stold
+
+# https://en.cppreference.com/w/cpp/header/cstdio
+fpos
+stdin
+stdout
+stderr
+fopen
+bufsize
+iofbf
+iolbf
+ionbf
+tmpnam
+freopen
+fclose
+fflush
+setbuf
+setvbuf
+fread
+fwrite
+fgetc
+getc
+fgets
+fputc
+putc
+
+
+cout
+cerr
+endl
