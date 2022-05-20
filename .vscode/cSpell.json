@@ -8,13 +8,16 @@
       "!cpp", // disable bundled cpp dictionary.
       "!softwareTerms", // hmm... not sure about disabling this.
 
-      "language-keywords",
-      "language-jargon",
-      "c-standard-library",
-      "c-standard-library-errno",
-      "c-standard-library-math",
-      "cpp-standard-library",
-      "ecosystem",
+      "cpp-lang-keywords",
+      "cpp-lang-jargon",
+      "cpp-stdlib-c",
+      "cpp-stdlib-cerrno",
+      "cpp-stdlib-cmath",
+      "cpp-stdlib-cpp",
+      "cpp-ecosystem",
+      "cpp-platform-macros",
+      "cpp-lib-boost",
+      "cpp-people",
 
       "!aws",
       "!companies",
@@ -27,38 +30,53 @@
    ],
    "dictionaryDefinitions": [
       {
-         "name": "language-keywords",
-         "path": "../dictionaries/language-keywords.txt",
+         "name": "cpp-lang-keywords",
+         "path": "../dictionaries/cpp-lang-keywords.txt",
          "useCompounds": false
       },
       {
-         "name": "language-jargon",
-         "path": "../dictionaries/language-jargon.txt",
+         "name": "cpp-lang-jargon",
+         "path": "../dictionaries/cpp-lang-jargon.txt",
          "useCompounds": false
       },
       {
-         "name": "c-standard-library",
-         "path": "../dictionaries/c-standard-library.txt",
+         "name": "cpp-stdlib-c",
+         "path": "../dictionaries/cpp-stdlib-c.txt",
          "useCompounds": false
       },
       {
-         "name": "c-standard-library-errno",
-         "path": "../dictionaries/c-standard-library-errno.txt",
+         "name": "cpp-stdlib-cerrno",
+         "path": "../dictionaries/cpp-stdlib-cerrno.txt",
          "useCompounds": false
       },
       {
-         "name": "c-standard-library-math",
-         "path": "../dictionaries/c-standard-library-math.txt",
+         "name": "cpp-stdlib-cmath",
+         "path": "../dictionaries/cpp-stdlib-cmath.txt",
          "useCompounds": false
       },
       {
-         "name": "cpp-standard-library",
-         "path": "../dictionaries/cpp-standard-library.txt",
+         "name": "cpp-stdlib-cpp",
+         "path": "../dictionaries/cpp-stdlib-cpp.txt",
          "useCompounds": false
       },
       {
-         "name": "ecosystem",
-         "path": "../dictionaries/ecosystem.txt",
+         "name": "cpp-ecosystem",
+         "path": "../dictionaries/cpp-ecosystem.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "cpp-platform-macros",
+         "path": "../dictionaries/cpp-platform-macros.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "cpp-lib-boost",
+         "path": "../dictionaries/cpp-lib-boost.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "cpp-people",
+         "path": "../dictionaries/cpp-people.txt",
          "useCompounds": false
       },
    ]

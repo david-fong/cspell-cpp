@@ -1,0 +1,4 @@
+# https://sourceforge.net/p/predef/wiki/OperatingSystems/
+# https://www.boost.org/doc/libs/1_79_0/libs/predef/doc/index.html
+libcpp
+glibcxx

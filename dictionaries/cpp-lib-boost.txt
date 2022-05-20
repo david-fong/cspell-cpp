@@ -1,0 +1,152 @@
+# accumulators
+cumul
+
+# algorithms
+# align
+
+# asio
+asio
+coro
+netdb
+addrinfo
+
+# atomic
+spinlock
+cmpxchg
+
+# beast
+serializer
+teardown
+permessage_deflate
+
+# bimap
+bimap
+
+# bind
+
+# coroutine2
+fixedsize
+
+# exception
+rethrow
+
+# fiber
+fcontext
+ucontext
+errorcode
+
+# foreach
+foreach
+
+# function_types
+nonmember
+
+# geometry
+frechet
+hausdorff
+linestring
+douglas_peucker
+
+# GIL
+deciven
+memunit
+
+# HOF (higher-order-functions)
+pipable
+
+# interprocess
+bufferbuf
+bufferstream
+ibufferstream
+obufferstream
+vectorbuf
+vectorstream
+ivectorstream
+ovectorstream
+iset
+iunordered
+rbtree
+wmanaged
+
+# intrusive (containers)
+slist
+
+# io
+nullbuf
+nullstream
+onullstream
+
+# iostream
+peekable
+seekable
+pipable
+multichar
+wfilter
+warray
+wchain
+wcounter
+wdevice
+wfile
+wfilter
+wline_filter
+wnull_source
+wregex_filter
+wsink
+swource
+wstdio_filter
+
+# lockfree
+lockfree
+spsc # single-producer, single-consumer (ringbuffer)
+
+# math
+feigenbaum
+dottie
+feigenbaum
+dottie
+hyperexponential
+hypergeometric
+smirnov
+noncentral
+ljung
+digamma
+trigamma
+polygamma
+erfc
+chebyshev
+gegenbaur
+hankel
+heuman
+powm1
+daubechies
+catmull_rom
+catmull-rom
+akima
+pchip
+lanczos
+luroth
+
+# metaparse
+metaparse
+foldl
+foldr
+
+# mpi
+datatype
+inplace
+iarchive
+oarchive
+
+# multiprecision
+multiprecision
+mpfr
+
+# ode
+bashforth
+bulirsch_stoer
+rosenbrock
+runge_kutta
+dopri
+fehlberg
+sympletic
+verlet

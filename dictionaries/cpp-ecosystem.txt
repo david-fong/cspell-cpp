@@ -1,3 +1,5 @@
+isocpp
+
 #gnu
 #gcc
 #clang
@@ -5,9 +7,16 @@ llvm # also included in the dictionary "softwareTerms"
 msvc
 emscripten
 
+msys
+cygwin
+posix
+
 #make
 #ninja
 cmake
 
 conan
 vcpkg
+
+
+cuda
