@@ -238,6 +238,43 @@ rtomb
 
 
 
+# https://en.cppreference.com/w/cpp/header/clocale
+ctype
+setlocale
+localeconv
+
+
+
+
+# https://en.cppreference.com/w/cpp/header/cfenv
+fenv_t
+fexcept_t
+feclearexcept
+fetestexcept
+feraiseexcept
+fegetexceptflag
+fesetexceptflag
+fegetround
+fesetround
+fegetenv
+fesetenv
+feholdexcept
+feupdateenv
+FE_ALL_EXCEPT
+FE_DIVBYZERO
+FE_INEXACT
+FE_INVALID
+FE_OVERFLOW
+FE_UNDERFLOW
+FE_DOWNWARD
+FE_TONEAREST
+FE_TOWARDZERO
+FE_UPWARD
+FE_DFL_ENV
+
+
+
+
 # https://en.cppreference.com/w/cpp/header/cstdio
 stdio
 fpos
@@ -249,7 +286,6 @@ bufsize
 iofbf
 iolbf
 ionbf
-tmpnam
 freopen
 fclose
 fflush
@@ -290,38 +326,25 @@ clearerr
 feof
 ferror
 perror
+tmpfile
+tmpnam
 
 
-# https://en.cppreference.com/w/cpp/header/clocale
-ctype
-setlocale
-localeconv
-
-
-
-
-# https://en.cppreference.com/w/cpp/header/cfenv
-fenv_t
-fexcept_t
-feclearexcept
-fetestexcept
-feraiseexcept
-fegetexceptflag
-fesetexceptflag
-fegetround
-fesetround
-fegetenv
-fesetenv
-feholdexcept
-feupdateenv
-FE_ALL_EXCEPT
-FE_DIVBYZERO
-FE_INEXACT
-FE_INVALID
-FE_OVERFLOW
-FE_UNDERFLOW
-FE_DOWNWARD
-FE_TONEAREST
-FE_TOWARDZERO
-FE_UPWARD
-FE_DFL_ENV
+# https://en.cppreference.com/w/cpp/header/cinttypes
+imaxabs
+imaxdiv
+strtoimax
+strtoumax
+wcstoimax
+wcstoumax
+PRId # PRId8, etc...
+PRIi # PRIi8, etc...
+PRIu # PRIu8, etc...
+PRIo # PRIo8, etc...
+PRIx # PRIx8, etc...
+PRIX # PRIX8, etc...
+SCNd # SCNd8, etc...
+SCNi # SCNi8, etc...
+SCNu # SCNu8, etc...
+SCNo # SCNo8, etc...
+SCNx # SCNx8, etc...

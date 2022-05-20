@@ -753,6 +753,113 @@ bessel
 besself
 bessell
 
+
+resetiosflags
+setiosflags
+setbase
+setfill
+setprecision
+setw
+
+streambuf
+wstreambuf
+pubimbue
+getloc
+pubsetbuf
+pubseekoff
+pubsync
+snextc
+sbumpc
+stossc # removed in c++17
+sgetc
+sgetn
+sputc
+sputn
+sputbackc
+sungetc
+setbuf
+seekoff
+seekpos
+showmanyc
+underflow
+uflow
+xsgetn
+eback
+gptr
+egptr
+gbump
+setg
+pbackfail
+
+stringbuf
+wstringbuf
+istringstream
+wistringstream
+ostringstream
+wostringstream
+stringstream
+wstringstream
+xsputn
+rdstate
+
+spanbuf
+wspanbuf
+ispanstream
+wispanstream
+ospanstream
+wospanstream
+spanstream
+wspanstream
+
+imaxabs
+imaxdiv
+strtoimax
+strtoumax
+wcstoimax
+wcstoumax
+PRId # PRId8, etc...
+PRIi # PRIi8, etc...
+PRIu # PRIu8, etc...
+PRIo # PRIo8, etc...
+PRIx # PRIx8, etc...
+PRIX # PRIX8, etc...
+SCNd # SCNd8, etc...
+SCNi # SCNi8, etc...
+SCNu # SCNu8, etc...
+SCNo # SCNo8, etc...
+SCNx # SCNx8, etc...
+
+icase
+nosubs
+multiline
+ECMAScript
+grep
+egrep
+csub_match
+wcsub_match
+ssub_match
+wssub_match
+
+cmatch
+wcmatch
+smatch
+wsmatch
+
+backref
+brack
+paren
+brace
+badbrace
+badrepeat
+
+translate_notrace
+lookup_collatename
+lookup_classname
+isctype
+
+atomic_ushort
+
+nostopstate
 */
 
 /**

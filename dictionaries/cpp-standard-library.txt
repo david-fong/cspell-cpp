@@ -261,25 +261,6 @@ egamma
 
 
 
-# https://en.cppreference.com/w/cpp/header/iostream
-streambuf
-istreambuf
-ostreambuf
-istream
-wistream
-ostream
-wostream
-iostream
-wiostream
-#cin
-wcin
-cout
-wcout
-cerr
-wcerr
-#clog
-wclog
-
 # https://en.cppreference.com/w/cpp/header/ios
 fpos
 streamoff
@@ -302,6 +283,78 @@ nounitbuf
 hexfloat
 defaultfloat
 
+
+# https://en.cppreference.com/w/cpp/header/iomanip
+resetiosflags
+setiosflags
+setbase
+setfill
+setprecision
+setw
+
+
+# https://en.cppreference.com/w/cpp/header/streambuf
+# https://en.cppreference.com/w/cpp/io/basic_streambuf
+streambuf
+wstreambuf
+pubimbue
+streambuf
+wstreambuf
+pubimbue
+getloc
+pubsetbuf
+pubseekoff
+pubsync
+snextc
+sbumpc
+stossc # removed in c++17
+sgetc
+sgetn
+sputc
+sputn
+sputbackc
+sungetc
+setbuf
+seekoff
+seekpos
+showmanyc
+underflow
+uflow
+xsgetn
+eback
+gptr
+egptr
+gbump
+setg
+xsputn
+pbase
+pptr
+epptr
+pbump
+setp
+pbackfail
+
+
+# https://en.cppreference.com/w/cpp/header/iostream
+streambuf
+istreambuf
+ostreambuf
+istream
+wistream
+ostream
+wostream
+iostream
+wiostream
+cin
+wcin
+cout
+wcout
+cerr
+wcerr
+#clog
+wclog
+
+# https://en.cppreference.com/w/cpp/header/iostream
 # https://en.cppreference.com/w/cpp/io/basic_iostream
 unget
 putback
@@ -338,3 +391,52 @@ badbit
 failbit
 eofbit
 seekdir
+
+
+# https://en.cppreference.com/w/cpp/header/sstream
+stringbuf
+wstringbuf
+istringstream
+wistringstream
+ostringstream
+wostringstream
+stringstream
+wstringstream
+
+
+# https://en.cppreference.com/w/cpp/header/spanstream
+spanbuf
+wspanbuf
+ispanstream
+wispanstream
+ospanstream
+wospanstream
+spanstream
+wspanstream
+
+
+# https://en.cppreference.com/w/cpp/header/fstream
+filebuf
+wfilebuf
+ifstream
+wifstream
+ofstream
+wofstream
+fstream
+wfstream
+
+
+# https://en.cppreference.com/w/cpp/header/syncstream
+syncbuf
+wsyncbuf
+osyncstream
+wosyncstream
+
+
+# https://en.cppreference.com/w/cpp/header/strstream
+# deprecated in c++98
+#strstreambuf
+#istrstream
+#ostrstream
+#strstream
+
