@@ -18,6 +18,9 @@
       "cpp-platform-macros",
       "cpp-lib-boost",
       "cpp-people",
+      "cpp-compiler-clang-attributes",
+      "cpp-compiler-msvc",
+      "cpp-compiler-gcc",
 
       "!aws",
       "!companies",
@@ -77,6 +80,21 @@
       {
          "name": "cpp-people",
          "path": "../dictionaries/cpp-people.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "cpp-compiler-clang-attributes",
+         "path": "../dictionaries/cpp-compiler-clang-attributes.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "cpp-compiler-msvc",
+         "path": "../dictionaries/cpp-compiler-msvc.txt",
+         "useCompounds": false
+      },
+      {
+         "name": "cpp-compiler-gcc",
+         "path": "../dictionaries/cpp-compiler-gcc.txt",
          "useCompounds": false
       },
    ]

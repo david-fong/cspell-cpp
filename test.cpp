@@ -993,6 +993,110 @@ dopri
 fehlberg
 sympletic
 verlet
+
+# AMD GPU
+amdgpu
+
+# calling conventions
+aarch64_sve_pcs
+aarch64_vector_pcs
+fastcall
+regcall
+regparm
+stdcall
+thiscall
+vectorcall
+
+# consumed annotation checking
+typestate
+
+# customizing swift import
+swift_newtype
+
+# declaration attributes
+novtable
+boxable
+objc_nonlazy_class
+objc_subclassing_restricted
+selectany
+
+# function attributes
+cmse_nonsecure_entry
+ifunc
+lifetimebound
+micromips
+nocf_check
+noduplicate
+nomicromips
+numthreads
+optnone
+overloadable
+sycl_kernel
+xray_always_instrument
+xray_never_instrument
+xray_log_args
+
+# nullability attributes
+nonnull
+
+# OpenCL address spaces
+opencl
+
+# statement attributes
+intel_reqd_sub_group_size
+musttail
+nomerge
+sycl_special_class
+
+# type attributes
+__sptr
+__uptr
+nodebug
+noescape
+nosvm
+swiftasynccall
+swiftcall
+
+appdomain
+dllimport
+dllexport
+jitintrinsic
+noalias
+noinline
+noreturn
+nothrow
+novtable
+safebuffers
+selectany
+
+# https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp#microsoft-specific-c-keywords
+__cdecl
+__fastcall
+__forceinline
+__sptr
+__stdcall
+__thiscall
+__uptr
+__uuidof
+__vectorcall
+
+__nogc
+__noop
+gcnew
+initonly
+safecast
+
+ifunc
+noclone
+noinline
+noipa
+nonnull
+noplt
+noreturn
+nothrow
+patchable
+symver
+weakref
 */
 
 /**
